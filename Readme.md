@@ -9,3 +9,9 @@ This character tells the OS that this is a bash script as there are other script
 You can run a bash script using 
 bash "name of the script" or ./"name of the script".... for the second option you will need an execution permission on the script.
 i.e cchmod +x "name of script"
+
+Some basic variable in bsh scripting:
+1. Read = it get inputs from user.
+
+Some basic example of Aguement:
+1. Positional Arguement parameter. e.g $1, $2
