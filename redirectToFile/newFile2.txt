@@ -1,0 +1,1 @@
+This command turn my shell into an editor that can be use to write to a namede in the same or specified directory.This commmad append this new data to the existing one.
