@@ -1,0 +1,12 @@
+total 32
+drwxrwxr-x 2 juwon juwon 4096 May  4 16:11 .
+drwxrwxr-x 7 juwon juwon 4096 May  4 15:56 ..
+-rw-rw-r-- 1 juwon juwon    0 May  4 16:12 file1.txt
+-rw-rw-r-- 1 juwon juwon    0 May  4 16:12 file2.txt
+-rw-rw-r-- 1 juwon juwon    0 May  4 16:11 file3.txt
+-rw-rw-r-- 1 juwon juwon   43 May  4 16:11 file4.txt
+-rw-rw-r-- 1 juwon juwon  580 May  4 16:11 file5.txt
+-rw-rw-r-- 1 juwon juwon  269 May  4 15:57 file.txt
+-rwxrwxr-x 1 juwon juwon  151 May  4 14:49 scriptinput.sh
+-rwxrwxr-x 1 juwon juwon  123 May  4 15:52 stdin.sh
+-rwxrwxr-x 1 juwon juwon  340 May  4 16:12 stdout.sh
