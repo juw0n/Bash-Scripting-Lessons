@@ -8,4 +8,4 @@ ls -al > file1.txt 2>file2.txt
 la -al > file3.txt 2>file4.txt
 
 #combing stdin and stderr output into one file
-la -al > file5.txt 2>&1
+pwd > file5.txt 2>&1
