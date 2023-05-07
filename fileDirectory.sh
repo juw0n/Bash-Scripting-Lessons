@@ -7,7 +7,7 @@ mkdir $dir
 
 #To search for an existing directory
 
-echo "Enter the directory name:"
+echo "Enter the directory name to search:"
 read s
 
 if [ -d "$s" ]
@@ -38,6 +38,17 @@ echo "Enter the text to append into the file:"
 read fileText
 echo $fileText >> $fileName #the >> will append the entered text to the existing text.
 
-#Reading from a file to stdout
+#Reading from a file to stdout line by line
+echo "Enter the file name to read from:"
+read fileToRead
 
+if [[ -f "$fileToRead" ]]
+then
+    while IFS= read -r line
+    do
+        echo "$line"
+    done
+else
+    echo "$fileToRead does not exist"
+fi
 
