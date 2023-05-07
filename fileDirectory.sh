@@ -47,8 +47,20 @@ then
     while IFS= read -r line
     do
         echo "$line"
-    done
+    done < $fileToRead
 else
     echo "$fileToRead does not exist"
 fi
 
+#removing a file from the current directory
+
+echo "Enter the file name to delete:"
+read fileToDelete
+
+if [[ -f "$fileToDelete" ]]
+then
+    rm $fileToDelete
+    echo "file deleted successfully"
+else
+    echo "$fileToDelete does not exist"
+fi
