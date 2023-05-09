@@ -8,7 +8,6 @@ function count
         echo "$i"
     done
 }
-echo "=============================="
 #function declaration
 function sequence
 {
@@ -17,7 +16,6 @@ function sequence
         echo "$v"
     done
 }
-echo "=============================="
 function inLoop
 {
     for file in *.txt
@@ -26,3 +24,26 @@ function inLoop
     done
     # echo "You have #n .txt file in this directory"
 }
+
+function funcCall
+{
+    for arg;
+    do  
+        echo "=============================="
+        echo "Arguement to function $arg"
+        if [ "$arg" = "count" ]
+        then
+            count
+            echo "=============================="
+        elif [ "$arg" = "sequence" ]
+        then    
+            sequence
+            echo "=============================="
+        elif [ "$arg" = "inloop" ]
+        then    
+            inLoop
+            echo "=============================="
+        fi
+    done
+}
+funcCall $1 $2
