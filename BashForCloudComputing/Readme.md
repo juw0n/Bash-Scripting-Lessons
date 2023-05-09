@@ -13,3 +13,9 @@ This is my Notes of some cloud computing scripting commands.
 6. name="juwon", num=90
 # outputing or saving to file is done by using (>) sign follow by the name of the file. not that it over write any existing data in the file and also create if the file does not already exist. to append, we use (>>)
 7. echo "Juwon is doing just fine" > info.txt
+# Some of the categories of command line tools available in Bash Scripting are 
+a) Binary Executable e.g C code etc
+b) Shell Builtin e.g ls, cd seq, mkdir
+c) Interpreted Script e.g python code
+d) Shell Functions 
+e) Alias
