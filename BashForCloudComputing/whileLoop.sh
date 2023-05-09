@@ -4,7 +4,7 @@ Option=""
 while [ Option != "exit" ]
 do
     echo "Type dir to display content of your current directory"
-    echo "Type name for a new file to be creaed"
+    echo "Type file to create a new file"
     echo "Type exit to close the program"
     echo "Select Option from the above menu"
     read option
@@ -13,10 +13,13 @@ do
     if [ "$option" = "dir" ]
     then   
         ls
-    elif [ "$option" = "fileName" ]
+    elif [ "$option" = "file" ]
     then   
+        echo "Enter a name for the file:"
         read fileName
-        touch fileName
+        nano fileName
+        echo "This is the content of $fileName"
+        cat fileName
     elif [ "$option" = "exit" ]
     then   
         break
@@ -24,5 +27,7 @@ do
         echo "Incorrect Option"
     fi
     echo "Press enter to continue the OS"
+    echo "===================================="
 done
+echo "***************************************"
     
