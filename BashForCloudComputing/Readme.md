@@ -19,5 +19,5 @@ b) Shell Builtin e.g ls, cd seq, mkdir
 c) Interpreted Script e.g python code
 d) Shell Functions 
 e) Alia
-<!-- CAse Statement -->
+<!-- Case Statement -->
 Case statement in bash scripts is used when a decision has to be made against multiple choices. In other words, it is useful when an expression has the possibility to have multiple values. This methodology can be seen as a replacement for multiple if-statements in a script.
