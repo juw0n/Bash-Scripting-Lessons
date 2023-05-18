@@ -15,3 +15,14 @@ Some basic variable in bsh scripting:
 
 Some basic example of Aguement:
 1. Positional Arguement parameter. e.g $1, $2
+<!-- To find the location of a file in Linux-->
+1. whereis
+2. which
+3. find
+<!-- To get help and know about a command in Bash or terminal -->
+1. man 
+2. help
+<!-- file permission -->
+chmod (or “change mode”) dictates what the user/group that owns a file can do with that file.
+chown (or “change owner”) dictates who owns a file. Specifically, chown controls what user and what group owns a given file or set of files.
+J** ust remember read = 4, write = 2, and execute = 1.
